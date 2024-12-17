@@ -106,7 +106,7 @@
                 countdownElement.innerText = seconds;
                 loader1.innerHTML=seconds;
                 if (seconds <= 0) {
-                    clearInterval(timer);
+                    seconds = 30;
                 }
             }, 1000);
         }
